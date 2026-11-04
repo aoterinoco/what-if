@@ -5,69 +5,139 @@
   "niveles": [
     {
       "nivel": 1,
-      "tiempoReferenciaMs": 60000,
-      "parametros": {
-        "tarjetas": 12,
-        "absurdez": "cotidiana",
-        "tarjetasObvias": true
-      },
+      "tiempoReferenciaMs": 40000,
+      "parametros": {},
       "contenido": {
-        "situacion": "¿Qué pasaría si el parque flotara?",
+        "situacion": "¿Qué pasaría si hoy hiciera mucho sol en el parque?",
+        "botonIdea": "Dame una idea",
+        "botonTerminar": "¡Ya está!",
         "tarjetas": [
-          {
-            "id": "t1",
-            "texto": "Subiríamos en globo",
-            "imagen": "barrio/globo.svg",
-            "categoria": "transporte",
-            "rareza": "comun"
-          },
-          {
-            "id": "t2",
-            "texto": "Los pájaros vivirían debajo",
-            "imagen": "barrio/pajaros.svg",
-            "categoria": "animales",
-            "rareza": "pocoComun"
-          }
+          { "id": "t1", "texto": "Jugaríamos con la pelota", "imagen": "⚽", "categoria": "juegos", "rareza": "comun" },
+          { "id": "t2", "texto": "Usaríamos gorra y crema", "imagen": "🧢", "categoria": "personas", "rareza": "comun" },
+          { "id": "t3", "texto": "Beberíamos mucha agua", "imagen": "💧", "categoria": "comida", "rareza": "comun" },
+          { "id": "t4", "texto": "Nos sentaríamos en la sombra", "imagen": "🌳", "categoria": "naturaleza", "rareza": "comun" },
+          { "id": "t5", "texto": "Comeríamos un helado", "imagen": "🍦", "categoria": "comida", "rareza": "comun" },
+          { "id": "t6", "texto": "Llevaríamos gafas de sol", "imagen": "🕶️", "categoria": "personas", "rareza": "comun" },
+          { "id": "t7", "texto": "Los pájaros cantarían mucho", "imagen": "🐦", "categoria": "animales", "rareza": "pocoComun" },
+          { "id": "t8", "texto": "Iríamos en patinete al parque", "imagen": "🛴", "categoria": "transporte", "rareza": "pocoComun" },
+          { "id": "t9", "texto": "Las plantas crecerían más rápido", "imagen": "🌻", "categoria": "naturaleza", "rareza": "pocoComun" },
+          { "id": "t10", "texto": "Haríamos un pícnic en la hierba", "imagen": "🧺", "categoria": "comida", "rareza": "pocoComun" },
+          { "id": "t11", "texto": "Un perro llevaría sombrilla", "imagen": "🐶", "categoria": "animales", "rareza": "rara" },
+          { "id": "t12", "texto": "El tobogán brillaría como un espejo", "imagen": "✨", "categoria": "juegos", "rareza": "rara" }
         ]
       }
     },
     {
       "nivel": 2,
-      "tiempoReferenciaMs": 60000,
-      "parametros": {
-        "tarjetas": 12,
-        "absurdez": "cotidiana"
-      },
-      "contenido": {}
+      "tiempoReferenciaMs": 45000,
+      "parametros": {},
+      "contenido": {
+        "situacion": "¿Qué pasaría si empezara a llover en el parque?",
+        "botonIdea": "Dame una idea",
+        "botonTerminar": "¡Ya está!",
+        "tarjetas": [
+          { "id": "t1", "texto": "Abriríamos los paraguas", "imagen": "☂️", "categoria": "personas", "rareza": "comun" },
+          { "id": "t2", "texto": "Nos pondríamos botas de agua", "imagen": "🥾", "categoria": "personas", "rareza": "comun" },
+          { "id": "t3", "texto": "Saltaríamos en los charcos", "imagen": "💦", "categoria": "juegos", "rareza": "comun" },
+          { "id": "t4", "texto": "Nos refugiaríamos bajo el porche", "imagen": "🏠", "categoria": "personas", "rareza": "comun" },
+          { "id": "t5", "texto": "La tierra olería a mojado", "imagen": "🌱", "categoria": "naturaleza", "rareza": "comun" },
+          { "id": "t6", "texto": "Las flores tomarían agua", "imagen": "🌸", "categoria": "naturaleza", "rareza": "comun" },
+          { "id": "t7", "texto": "Saldrían caracoles a pasear", "imagen": "🐌", "categoria": "animales", "rareza": "pocoComun" },
+          { "id": "t8", "texto": "Los patos nadarían encantados", "imagen": "🦆", "categoria": "animales", "rareza": "pocoComun" },
+          { "id": "t9", "texto": "Volveríamos a casa en autobús", "imagen": "🚌", "categoria": "transporte", "rareza": "pocoComun" },
+          { "id": "t10", "texto": "Tomaríamos chocolate caliente", "imagen": "☕", "categoria": "comida", "rareza": "pocoComun" },
+          { "id": "t11", "texto": "Saldría un arcoíris gigante", "imagen": "🌈", "categoria": "naturaleza", "rareza": "rara" },
+          { "id": "t12", "texto": "Los bancos del parque cantarían", "imagen": "🪑", "categoria": "juegos", "rareza": "rara" }
+        ]
+      }
     },
     {
       "nivel": 3,
-      "tiempoReferenciaMs": 60000,
-      "parametros": {
-        "tarjetas": 16,
-        "absurdez": "algoAbsurda"
-      },
-      "contenido": {}
+      "tiempoReferenciaMs": 50000,
+      "parametros": {},
+      "contenido": {
+        "situacion": "¿Qué pasaría si los árboles del parque fueran de caramelo?",
+        "botonIdea": "Dame una idea",
+        "botonTerminar": "¡Ya está!",
+        "tarjetas": [
+          { "id": "t1", "texto": "Las hojas sabrían a fresa", "imagen": "🍓", "categoria": "comida", "rareza": "comun" },
+          { "id": "t2", "texto": "Todos querrían probar las ramas", "imagen": "😋", "categoria": "personas", "rareza": "comun" },
+          { "id": "t3", "texto": "Las ardillas comerían regaliz", "imagen": "🐿️", "categoria": "animales", "rareza": "comun" },
+          { "id": "t4", "texto": "Los pájaros harían nidos dulces", "imagen": "🐦", "categoria": "animales", "rareza": "comun" },
+          { "id": "t5", "texto": "El parque olería a pastelería", "imagen": "🍰", "categoria": "comida", "rareza": "comun" },
+          { "id": "t6", "texto": "Habría que lavarse mucho los dientes", "imagen": "🪥", "categoria": "personas", "rareza": "comun" },
+          { "id": "t7", "texto": "Las hormigas harían una gran fiesta", "imagen": "🐜", "categoria": "animales", "rareza": "comun" },
+          { "id": "t8", "texto": "Los bancos serían de chicle", "imagen": "🍬", "categoria": "juegos", "rareza": "comun" },
+          { "id": "t9", "texto": "Vendrían camiones a cuidar el dulce", "imagen": "🚛", "categoria": "transporte", "rareza": "pocoComun" },
+          { "id": "t10", "texto": "Llovería sirope de chocolate", "imagen": "🍫", "categoria": "comida", "rareza": "pocoComun" },
+          { "id": "t11", "texto": "Las sombras serían de colores brillantes", "imagen": "🎨", "categoria": "naturaleza", "rareza": "pocoComun" },
+          { "id": "t12", "texto": "Nos abrocharíamos el abrigo con gomitas", "imagen": "🧥", "categoria": "personas", "rareza": "pocoComun" },
+          { "id": "t13", "texto": "Los perros buscarían palos de piruleta", "imagen": "🐕", "categoria": "animales", "rareza": "pocoComun" },
+          { "id": "t14", "texto": "Los toboganes serían de gelatina", "imagen": "🍮", "categoria": "juegos", "rareza": "rara" },
+          { "id": "t15", "texto": "Las nubes olerían a algodón de azúcar", "imagen": "☁️", "categoria": "naturaleza", "rareza": "rara" },
+          { "id": "t16", "texto": "El sol llevaría caramelos en el bolsillo", "imagen": "☀️", "categoria": "naturaleza", "rareza": "rara" }
+        ]
+      }
     },
     {
       "nivel": 4,
-      "tiempoReferenciaMs": 60000,
-      "parametros": {
-        "tarjetas": 16,
-        "absurdez": "absurda",
-        "menosObvias": true
-      },
-      "contenido": {}
+      "tiempoReferenciaMs": 55000,
+      "parametros": {},
+      "contenido": {
+        "situacion": "¿Qué pasaría si el parque flotara en el aire?",
+        "botonIdea": "Dame una idea",
+        "botonTerminar": "¡Ya está!",
+        "tarjetas": [
+          { "id": "t1", "texto": "Subiríamos en globo aerostático", "imagen": "🎈", "categoria": "transporte", "rareza": "comun" },
+          { "id": "t2", "texto": "Los pájaros volarían debajo de nosotros", "imagen": "🦅", "categoria": "animales", "rareza": "comun" },
+          { "id": "t3", "texto": "Veríamos la ciudad pequeñita", "imagen": "🏙️", "categoria": "personas", "rareza": "comun" },
+          { "id": "t4", "texto": "Usaríamos redes para no perder las pelotas", "imagen": "⚽", "categoria": "juegos", "rareza": "comun" },
+          { "id": "t5", "texto": "Saludaríamos a los aviones", "imagen": "✈️", "categoria": "transporte", "rareza": "comun" },
+          { "id": "t6", "texto": "Comeríamos la merienda cerca de las nubes", "imagen": "🥪", "categoria": "comida", "rareza": "comun" },
+          { "id": "t7", "texto": "Las cometas volarían hacia abajo", "imagen": "🪁", "categoria": "juegos", "rareza": "comun" },
+          { "id": "t8", "texto": "Habría escaleras infinitas hasta la entrada", "imagen": "🪜", "categoria": "personas", "rareza": "comun" },
+          { "id": "t9", "texto": "Las ardillas llevarían paracaídas", "imagen": "🪂", "categoria": "animales", "rareza": "pocoComun" },
+          { "id": "t10", "texto": "El viento nos movería suavemente", "imagen": "💨", "categoria": "naturaleza", "rareza": "pocoComun" },
+          { "id": "t11", "texto": "El agua de la fuente caería como cascada", "imagen": "🌊", "categoria": "naturaleza", "rareza": "pocoComun" },
+          { "id": "t12", "texto": "Los perritos mirarían curiosos por la orilla", "imagen": "🐶", "categoria": "animales", "rareza": "pocoComun" },
+          { "id": "t13", "texto": "Las mariposas guiarían a los visitantes", "imagen": "🦋", "categoria": "animales", "rareza": "pocoComun" },
+          { "id": "t14", "texto": "Aprenderíamos a nadar en la brisa", "imagen": "🌬️", "categoria": "juegos", "rareza": "rara" },
+          { "id": "t15", "texto": "Los columpios tocarían las estrellas de noche", "imagen": "⭐", "categoria": "juegos", "rareza": "rara" },
+          { "id": "t16", "texto": "Las estatuas aprenderían a volar", "imagen": "🗿", "categoria": "personas", "rareza": "rara" }
+        ]
+      }
     },
     {
       "nivel": 5,
       "tiempoReferenciaMs": 60000,
-      "parametros": {
-        "tarjetas": 20,
-        "absurdez": "muyAbsurda",
-        "abstractas": true
-      },
-      "contenido": {}
+      "parametros": {},
+      "contenido": {
+        "situacion": "¿Qué pasaría si el tiempo fuera al revés en el parque?",
+        "botonIdea": "Dame una idea",
+        "botonTerminar": "¡Ya está!",
+        "tarjetas": [
+          { "id": "t1", "texto": "Las hojas subirían de la tierra a las ramas", "imagen": "🍂", "categoria": "naturaleza", "rareza": "comun" },
+          { "id": "t2", "texto": "Los charcos se juntarían para subir al cielo", "imagen": "🌧️", "categoria": "naturaleza", "rareza": "comun" },
+          { "id": "t3", "texto": "Desconstruiríamos castillos de arena", "imagen": "🏰", "categoria": "juegos", "rareza": "comun" },
+          { "id": "t4", "texto": "Nos deslizaríamos del suelo hacia arriba en el tobogán", "imagen": "🛝", "categoria": "juegos", "rareza": "comun" },
+          { "id": "t5", "texto": "Nos quitaríamos el abrigo al empezar a tener frío", "imagen": "🧥", "categoria": "personas", "rareza": "comun" },
+          { "id": "t6", "texto": "Comenzaríamos la merienda llenos y terminaríamos con hambre", "imagen": "🍎", "categoria": "comida", "rareza": "comun" },
+          { "id": "t7", "texto": "Las palomas volarían hacia atrás", "imagen": "🕊️", "categoria": "animales", "rareza": "comun" },
+          { "id": "t8", "texto": "Las huellas en el camino se irían borrando", "imagen": "👣", "categoria": "personas", "rareza": "comun" },
+          { "id": "t9", "texto": "El sol saldría por donde suele ponerse", "imagen": "🌅", "categoria": "naturaleza", "rareza": "comun" },
+          { "id": "t10", "texto": "Los coches irían marcha atrás tranquilamente", "imagen": "🚗", "categoria": "transporte", "rareza": "comun" },
+          { "id": "t11", "texto": "Las risas sonarían como un eco del futuro", "imagen": "🎧", "categoria": "personas", "rareza": "pocoComun" },
+          { "id": "t12", "texto": "Los relojes girarían del revés", "imagen": "⏰", "categoria": "personas", "rareza": "pocoComun" },
+          { "id": "t13", "texto": "Las flores se convertirían en capullos cerrados", "imagen": "🌷", "categoria": "naturaleza", "rareza": "pocoComun" },
+          { "id": "t14", "texto": "Primero diríamos adiós y luego hola", "imagen": "👋", "categoria": "personas", "rareza": "pocoComun" },
+          { "id": "t15", "texto": "Las canicas rodarían hacia arriba en la rampa", "imagen": "🔮", "categoria": "juegos", "rareza": "pocoComun" },
+          { "id": "t16", "texto": "Los jugos volverían a meterse en el envase", "imagen": "🧃", "categoria": "comida", "rareza": "pocoComun" },
+          { "id": "t17", "texto": "El silencio nos susurraría historias antiguas", "imagen": "🌌", "categoria": "naturaleza", "rareza": "rara" },
+          { "id": "t18", "texto": "Los recuerdos se crearían antes de vivir las cosas", "imagen": "💭", "categoria": "personas", "rareza": "rara" },
+          { "id": "t19", "texto": "La música empezaría por la última nota", "imagen": "🎵", "categoria": "juegos", "rareza": "rara" },
+          { "id": "t20", "texto": "Los sueños ocurrirían despiertos por la mañana", "imagen": "✨", "categoria": "personas", "rareza": "rara" }
+        ]
+      }
     }
   ]
 }
