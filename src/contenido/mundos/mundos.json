@@ -1,0 +1,58 @@
+[
+  {
+    "id": "barrio",
+    "nombre": "Mi barrio",
+    "preguntaGuia": "¿Y si tuvieras que diseñar el parque de tu barrio?",
+    "bloqueado": false,
+    "zonas": [
+      {
+        "zonaId": "investigar",
+        "mecanicaId": "clasificar"
+      },
+      {
+        "zonaId": "planificar",
+        "mecanicaId": "ruta"
+      },
+      {
+        "zonaId": "idear",
+        "mecanicaId": "quePasariaSi"
+      },
+      {
+        "zonaId": "acordar",
+        "mecanicaId": "conflicto"
+      },
+      {
+        "zonaId": "presentar",
+        "mecanicaId": "miCreacion"
+      }
+    ]
+  },
+  {
+    "id": "bosque",
+    "nombre": "El bosque",
+    "preguntaGuia": "¿Y si los animales se quedaran sin río?",
+    "bloqueado": true,
+    "zonas": []
+  },
+  {
+    "id": "mundo3",
+    "nombre": "PENDIENTE: mundo 3",
+    "preguntaGuia": "PENDIENTE: pregunta guía",
+    "bloqueado": true,
+    "zonas": []
+  },
+  {
+    "id": "mundo4",
+    "nombre": "PENDIENTE: mundo 4",
+    "preguntaGuia": "PENDIENTE: pregunta guía",
+    "bloqueado": true,
+    "zonas": []
+  },
+  {
+    "id": "mundo5",
+    "nombre": "PENDIENTE: mundo 5",
+    "preguntaGuia": "PENDIENTE: pregunta guía",
+    "bloqueado": true,
+    "zonas": []
+  }
+]

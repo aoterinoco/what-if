@@ -1,0 +1,47 @@
+{
+  "mecanicaId": "miCreacion",
+  "mundoId": "barrio",
+  "zonaId": "presentar",
+  "niveles": [
+    {
+      "nivel": 1,
+      "tiempoReferenciaMs": 120000,
+      "parametros": {
+        "edadNivel": 6
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 2,
+      "tiempoReferenciaMs": 120000,
+      "parametros": {
+        "edadNivel": 7
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 3,
+      "tiempoReferenciaMs": 120000,
+      "parametros": {
+        "edadNivel": 8
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 4,
+      "tiempoReferenciaMs": 120000,
+      "parametros": {
+        "edadNivel": 9
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 5,
+      "tiempoReferenciaMs": 120000,
+      "parametros": {
+        "edadNivel": 10
+      },
+      "contenido": {}
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "mecanicaId": "conflicto",
+  "mundoId": "barrio",
+  "zonaId": "acordar",
+  "niveles": [
+    {
+      "nivel": 1,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "personajes": 2,
+        "interesVisible": true
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 2,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "personajes": 2,
+        "preguntasNecesarias": 1
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 3,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "personajes": 2,
+        "interesesOcultos": true
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 4,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "personajes": 3,
+        "interesesOcultos": true
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 5,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "personajes": 3,
+        "interesesQueChocan": true
+      },
+      "contenido": {}
+    }
+  ]
+}

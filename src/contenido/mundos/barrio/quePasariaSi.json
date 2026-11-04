@@ -1,0 +1,73 @@
+{
+  "mecanicaId": "quePasariaSi",
+  "mundoId": "barrio",
+  "zonaId": "idear",
+  "niveles": [
+    {
+      "nivel": 1,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "tarjetas": 12,
+        "absurdez": "cotidiana",
+        "tarjetasObvias": true
+      },
+      "contenido": {
+        "situacion": "¿Qué pasaría si el parque flotara?",
+        "tarjetas": [
+          {
+            "id": "t1",
+            "texto": "Subiríamos en globo",
+            "imagen": "barrio/globo.svg",
+            "categoria": "transporte",
+            "rareza": "comun"
+          },
+          {
+            "id": "t2",
+            "texto": "Los pájaros vivirían debajo",
+            "imagen": "barrio/pajaros.svg",
+            "categoria": "animales",
+            "rareza": "pocoComun"
+          }
+        ]
+      }
+    },
+    {
+      "nivel": 2,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "tarjetas": 12,
+        "absurdez": "cotidiana"
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 3,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "tarjetas": 16,
+        "absurdez": "algoAbsurda"
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 4,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "tarjetas": 16,
+        "absurdez": "absurda",
+        "menosObvias": true
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 5,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "tarjetas": 20,
+        "absurdez": "muyAbsurda",
+        "abstractas": true
+      },
+      "contenido": {}
+    }
+  ]
+}

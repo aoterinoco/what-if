@@ -1,0 +1,63 @@
+{
+  "mecanicaId": "ruta",
+  "mundoId": "barrio",
+  "zonaId": "planificar",
+  "niveles": [
+    {
+      "nivel": 1,
+      "tiempoReferenciaMs": 30000,
+      "parametros": {
+        "filas": 3,
+        "columnas": 3,
+        "obstaculos": 0,
+        "objetosRecoger": 0
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 2,
+      "tiempoReferenciaMs": 45000,
+      "parametros": {
+        "filas": 4,
+        "columnas": 4,
+        "obstaculos": 2,
+        "objetosRecoger": 0
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 3,
+      "tiempoReferenciaMs": 60000,
+      "parametros": {
+        "filas": 4,
+        "columnas": 4,
+        "obstaculos": 0,
+        "objetosRecoger": 1
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 4,
+      "tiempoReferenciaMs": 75000,
+      "parametros": {
+        "filas": 5,
+        "columnas": 5,
+        "obstaculos": 0,
+        "objetosRecoger": 2
+      },
+      "contenido": {}
+    },
+    {
+      "nivel": 5,
+      "tiempoReferenciaMs": 90000,
+      "parametros": {
+        "filas": 6,
+        "columnas": 6,
+        "obstaculos": 0,
+        "objetosRecoger": 0,
+        "limiteMovimientos": true
+      },
+      "contenido": {}
+    }
+  ]
+}
