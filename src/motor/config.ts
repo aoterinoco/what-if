@@ -20,3 +20,6 @@ export const esperadoPorEdad: Record<
   preguntas: { 6: 0, 7: 1, 8: 1, 9: 2, 10: 2 },
   piezas: { 6: 4, 7: 5, 8: 6, 9: 7, 10: 8 },
 };
+
+// Cuántos conflictos anteriores se miran para puntuar el repertorio de estilos.
+export const CONFLICTOS_RECIENTES = 3;
