@@ -7,90 +7,117 @@
       "nivel": 1,
       "tiempoReferenciaMs": 30000,
       "parametros": {
-        "objetos": 4,
-        "grupos": 2,
         "pistas": true
       },
       "contenido": {
         "enunciado": "Ayuda a ordenar el parque: ¿dónde va cada cosa?",
         "grupos": [
-          {
-            "id": "jugar",
-            "texto": "Para jugar"
-          },
-          {
-            "id": "descansar",
-            "texto": "Para descansar"
-          }
+          { "id": "jugar", "texto": "Para jugar" },
+          { "id": "descansar", "texto": "Para descansar" }
         ],
         "objetos": [
-          {
-            "id": "columpio",
-            "texto": "Columpio",
-            "imagen": "barrio/columpio.svg",
-            "grupo": "jugar"
-          },
-          {
-            "id": "tobogan",
-            "texto": "Tobogán",
-            "imagen": "barrio/tobogan.svg",
-            "grupo": "jugar"
-          },
-          {
-            "id": "banco",
-            "texto": "Banco",
-            "imagen": "barrio/banco.svg",
-            "grupo": "descansar"
-          },
-          {
-            "id": "sombrilla",
-            "texto": "Sombrilla",
-            "imagen": "barrio/sombrilla.svg",
-            "grupo": "descansar"
-          }
+          { "id": "columpio", "texto": "Columpio", "imagen": "barrio/columpio.svg", "grupo": "jugar" },
+          { "id": "tobogan", "texto": "Tobogán", "imagen": "barrio/tobogan.svg", "grupo": "jugar" },
+          { "id": "banco", "texto": "Banco", "imagen": "barrio/banco.svg", "grupo": "descansar" },
+          { "id": "sombrilla", "texto": "Sombrilla", "imagen": "barrio/sombrilla.svg", "grupo": "descansar" }
         ]
       }
     },
     {
       "nivel": 2,
-      "tiempoReferenciaMs": 40000,
+      "tiempoReferenciaMs": 35000,
       "parametros": {
-        "objetos": 6,
-        "grupos": 2,
         "pistas": false
       },
-      "contenido": {}
+      "contenido": {
+        "enunciado": "Clasifica los objetos del barrio según su uso",
+        "grupos": [
+          { "id": "deporte", "texto": "Para hacer deporte" },
+          { "id": "naturaleza", "texto": "De la naturaleza" }
+        ],
+        "objetos": [
+          { "id": "pelota", "texto": "Pelota", "imagen": "barrio/pelota.svg", "grupo": "deporte" },
+          { "id": "bicicleta", "texto": "Bicicleta", "imagen": "barrio/bicicleta.svg", "grupo": "deporte" },
+          { "id": "patinete", "texto": "Patinete", "imagen": "barrio/patinete.svg", "grupo": "deporte" },
+          { "id": "arbol", "texto": "Árbol", "imagen": "barrio/arbol.svg", "grupo": "naturaleza" },
+          { "id": "flor", "texto": "Flor", "imagen": "barrio/flor.svg", "grupo": "naturaleza" },
+          { "id": "hoja", "texto": "Hoja", "imagen": "barrio/hoja.svg", "grupo": "naturaleza" }
+        ]
+      }
     },
     {
       "nivel": 3,
-      "tiempoReferenciaMs": 50000,
+      "tiempoReferenciaMs": 40000,
       "parametros": {
-        "objetos": 6,
-        "grupos": 3,
         "pistas": false
       },
-      "contenido": {}
+      "contenido": {
+        "enunciado": "Separa estos elementos en tres grupos diferentes",
+        "grupos": [
+          { "id": "juegos", "texto": "Juegos" },
+          { "id": "descanso", "texto": "Descanso" },
+          { "id": "limpieza", "texto": "Limpieza" }
+        ],
+        "objetos": [
+          { "id": "balancin", "texto": "Balancín", "imagen": "barrio/balancin.svg", "grupo": "juegos" },
+          { "id": "canasta", "texto": "Canasta", "imagen": "barrio/canasta.svg", "grupo": "juegos" },
+          { "id": "hamaca", "texto": "Hamaca", "imagen": "barrio/hamaca.svg", "grupo": "descanso" },
+          { "id": "silla", "texto": "Silla", "imagen": "barrio/silla.svg", "grupo": "descanso" },
+          { "id": "papelera", "texto": "Papelera", "imagen": "barrio/papelera.svg", "grupo": "limpieza" },
+          { "id": "escoba", "texto": "Escoba", "imagen": "barrio/escoba.svg", "grupo": "limpieza" }
+        ]
+      }
     },
     {
       "nivel": 4,
-      "tiempoReferenciaMs": 60000,
+      "tiempoReferenciaMs": 45000,
       "parametros": {
-        "objetos": 8,
-        "grupos": 3,
-        "pistas": false,
-        "objetosParecidos": true
+        "pistas": false
       },
-      "contenido": {}
+      "contenido": {
+        "enunciado": "Atención: clasifica estos 8 objetos parecidos en sus grupos",
+        "grupos": [
+          { "id": "vehiculos", "texto": "Vehículos" },
+          { "id": "herramientas", "texto": "Mantenimiento" },
+          { "id": "plantas", "texto": "Vegetación" }
+        ],
+        "objetos": [
+          { "id": "bici_nino", "texto": "Bici infantil", "imagen": "barrio/bici_nino.svg", "grupo": "vehiculos" },
+          { "id": "patin", "texto": "Patín", "imagen": "barrio/patin.svg", "grupo": "vehiculos" },
+          { "id": "triciclo", "texto": "Triciclo", "imagen": "barrio/triciclo.svg", "grupo": "vehiculos" },
+          { "id": "rastrillo", "texto": "Rastrillo", "imagen": "barrio/rastrillo.svg", "grupo": "herramientas" },
+          { "id": "pala", "texto": "Pala", "imagen": "barrio/pala.svg", "grupo": "herramientas" },
+          { "id": "manguera", "texto": "Manguera", "imagen": "barrio/manguera.svg", "grupo": "herramientas" },
+          { "id": "arbusto", "texto": "Arbusto", "imagen": "barrio/arbusto.svg", "grupo": "plantas" },
+          { "id": "cesped", "texto": "Césped", "imagen": "barrio/cesped.svg", "grupo": "plantas" }
+        ]
+      }
     },
     {
       "nivel": 5,
-      "tiempoReferenciaMs": 70000,
+      "tiempoReferenciaMs": 50000,
       "parametros": {
-        "objetos": 9,
-        "criterios": 2,
         "pistas": false
       },
-      "contenido": {}
+      "contenido": {
+        "enunciado": "Criterio doble: organiza los objetos según su forma y uso",
+        "grupos": [
+          { "id": "redondo_juego", "texto": "Redondos para jugar" },
+          { "id": "redondo_descanso", "texto": "Redondos para descansar" },
+          { "id": "alargado_juego", "texto": "Alargados para jugar" }
+        ],
+        "objetos": [
+          { "id": "balon", "texto": "Balón", "imagen": "barrio/balon.svg", "grupo": "redondo_juego" },
+          { "id": "canica", "texto": "Canica", "imagen": "barrio/canica.svg", "grupo": "redondo_juego" },
+          { "id": "frisbee", "texto": "Frisbee", "imagen": "barrio/frisbee.svg", "grupo": "redondo_juego" },
+          { "id": "puff_redondo", "texto": "Puff redondo", "imagen": "barrio/puff.svg", "grupo": "redondo_descanso" },
+          { "id": "cojin_circular", "texto": "Cojín circular", "imagen": "barrio/cojin.svg", "grupo": "redondo_descanso" },
+          { "id": "taburete_redondo", "texto": "Taburete redondo", "imagen": "barrio/taburete.svg", "grupo": "redondo_descanso" },
+          { "id": "bate", "texto": "Bate de béisbol", "imagen": "barrio/bate.svg", "grupo": "alargado_juego" },
+          { "id": "cometa_cola", "texto": "Cometa alargada", "imagen": "barrio/cometa.svg", "grupo": "alargado_juego" },
+          { "id": "cuerda", "texto": "Cuerda de saltar", "imagen": "barrio/cuerda.svg", "grupo": "alargado_juego" }
+        ]
+      }
     }
   ]
 }
