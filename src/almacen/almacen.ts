@@ -1,5 +1,5 @@
 // Único punto de acceso a localStorage. El resto del código nunca lo toca directamente.
-import type { Evaluacion, Huella, MecanicaId, Nino } from '../core/tipos';
+import type { EstiloConflicto, Evaluacion, Huella, MecanicaId, Nino } from '../core/tipos';
 import { estadoInicial, type EstadoNivel } from '../motor/niveles';
 
 const PREFIJO = 'whatif.';
@@ -35,6 +35,13 @@ export const almacen = {
     leer<Huella[]>(CLAVE_HUELLAS, []).filter((h) => h.ninoId === ninoId),
   guardarHuella(huella: Huella): void {
     escribir(CLAVE_HUELLAS, [...leer<Huella[]>(CLAVE_HUELLAS, []), huella]);
+  },
+  // Estilos de los últimos conflictos guardados del niño, del más antiguo al más reciente.
+  leerEstilosConflictoRecientes(ninoId: string, cantidad: number): EstiloConflicto[] {
+    if (cantidad <= 0) return [];
+    return this.leerHuellas(ninoId)
+      .flatMap((h) => (h.datos.mecanica === 'conflicto' ? [h.datos.estilo] : []))
+      .slice(-cantidad);
   },
 
   leerEvaluaciones(ninoId: string): Evaluacion[] {
